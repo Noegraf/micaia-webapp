@@ -1,0 +1,24 @@
+.toolbar {
+  display: flex;
+  height: 4rem;
+  padding: 0.5rem 0rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  align-self: stretch;
+  background: var(--Schemes-Surface, #FCF8F8);
+}
+.spacer {
+    flex: 1 1 auto;
+  }
+  
+.span {
+    flex: 1 0 0;
+    color: var(--Schemes-On-Surface, #1C1B1C);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }

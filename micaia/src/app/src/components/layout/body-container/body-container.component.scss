@@ -1,0 +1,11 @@
+.body-container {
+    display: flex;
+    padding: 0.5rem 1rem 1.5rem 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    flex: 1 0 0;
+    align-self: stretch;
+    background: var(--Schemes-Background, #F9F9FC);
+}

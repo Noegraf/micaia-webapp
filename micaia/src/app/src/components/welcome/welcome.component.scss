@@ -1,0 +1,67 @@
+.welcome-container {
+    display: flex;
+    padding: 0.5rem 1rem 1.5rem 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    align-self: stretch;
+}
+
+.componente-centrado {
+    display: flex;
+    height: 46.25rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: stretch;
+}
+
+img {
+    width: 4.05619rem;
+    height: 3.28838rem;
+    flex-shrink: 0;
+}
+
+.titulo {
+    align-self: stretch;
+    color: #5D5D5D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.parrafo {
+    align-self: stretch;
+    color: #5D5D5D;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button {
+    display: flex;
+    height: 3rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: stretch;
+    border-radius: 0.5rem;
+    background: var(--Schemes-Primary, #2F6388);
+    color: var(--Schemes-On-Primary, #FFF);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-color: var(--Schemes-Primary, #2F6388);
+}

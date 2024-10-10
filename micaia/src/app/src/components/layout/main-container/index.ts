@@ -1,0 +1,1 @@
+export * from "./main-container.component"; //ayuda a simplificar el tema de los imports

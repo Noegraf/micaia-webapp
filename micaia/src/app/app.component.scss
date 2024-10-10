@@ -1,0 +1,10 @@
+.layout {
+    display: flex;
+    width: 25.75rem;
+    height: 55.75rem;
+    padding: 2rem 0rem 1rem 0rem;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 1.75rem;
+    background: var(--Schemes-Surface, #FCF8F8);
+}
