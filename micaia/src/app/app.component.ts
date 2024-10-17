@@ -1,17 +1,15 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { ToolbarComponent } from "./src/components/toolbar/toolbar.component";
-import { WelcomeComponent } from './src/components/welcome/welcome.component';
-import { CrearCuenta1Component } from "./src/components/crear-cuenta1/crear-cuenta1.component";
-
-
+import { ToolbarComponent } from './src/shared/pages/components/toolbar/toolbar.component';
+import { WelcomeComponent } from './src/shared/pages/components/welcome/welcome.component';
+import { SignupComponent } from './src/auth/signup/signup-component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, ToolbarComponent, WelcomeComponent, CrearCuenta1Component, CrearCuenta1Component],
+  imports: [RouterOutlet, ToolbarComponent, WelcomeComponent, SignupComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
 })
 export class AppComponent {
   title = 'micaia';
