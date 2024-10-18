@@ -18,7 +18,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatSelectModule } from '@angular/material/select';
 // icon
 import { MatIconModule } from '@angular/material/icon';
-//input para autocomplete
+//input to autocomplete
 import { MatInputModule } from '@angular/material/input';
 // spinner
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
@@ -27,22 +27,22 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 // toolbar
 import { MatToolbarModule } from '@angular/material/toolbar';
 
-@NgModule( {
-    exports: [
-
-        MatAutocompleteModule,
-        MatButtonModule,
-        MatCardModule,
-        MatDialogModule,
-        MatFormFieldModule,
-        MatGridListModule,
-        MatListModule,
-        MatIconModule,
-        MatInputModule,
-        MatSelectModule,
-        MatSnackBarModule,
-        MatProgressSpinnerModule,
-        MatToolbarModule
-    ]
-} )
-export class MaterialModule { }
+// These are somethings tools to use Angular Material. If they are not necessary, delete it.
+@NgModule({
+  exports: [
+    MatAutocompleteModule,
+    MatButtonModule,
+    MatCardModule,
+    MatDialogModule,
+    MatFormFieldModule,
+    MatGridListModule,
+    MatListModule,
+    MatIconModule,
+    MatInputModule,
+    MatSelectModule,
+    MatSnackBarModule,
+    MatProgressSpinnerModule,
+    MatToolbarModule,
+  ],
+})
+export class MaterialModule {}
